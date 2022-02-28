@@ -26,11 +26,14 @@
                 {
                     "type": "python",
                     "style": "powerline",
-                    "powerline_symbol": "\uE0B0",
+                    "powerline_symbol": "",
+                    "invert_powerline": false,
                     "foreground": "#100e23",
                     "background": "#906cff",
+                    "leading_diamond": "",
+                    "trailing_diamond": "",
                     "properties": {
-                        "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} "
+                        "template": " {{ if .Venv }}{{ .Venv }} {{ .Full }}{{ end }} "
                     }
                 },
                 {
