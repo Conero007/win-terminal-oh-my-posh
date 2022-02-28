@@ -30,7 +30,7 @@
                     "foreground": "#100e23",
                     "background": "#906cff",
                     "properties": {
-                        "fetch_version": false
+                        "template": " \uE235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} "
                     }
                 },
                 {
