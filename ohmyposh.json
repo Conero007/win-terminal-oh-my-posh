@@ -33,7 +33,7 @@
                     "leading_diamond": "",
                     "trailing_diamond": "",
                     "properties": {
-                        "template": " {{ if .Venv }}{{ .Venv }} {{ .Full }}{{ end }} "
+                        "template": " {{ if .Venv != 'Base'}}{{ .Venv }} {{ .Full }}{{ end }} "
                     }
                 },
                 {
