@@ -30,7 +30,8 @@
                     "foreground": "#100e23",
                     "background": "#906cff",
                     "properties": {
-                      "template": " \uE235 {{ .Full }} "
+                      "template": " \uE235 {{ .Full }} ",
+                      "display_mode": "files"
                     }
                 },
                 {
