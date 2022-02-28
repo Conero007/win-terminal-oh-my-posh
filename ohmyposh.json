@@ -30,7 +30,8 @@
                     "foreground": "#100e23",
                     "background": "#906cff",
                     "properties": {
-                        "display_default": "false"
+                        "display_default": false,
+                        "display_mode": "context"
                     }
                 },
                 {
