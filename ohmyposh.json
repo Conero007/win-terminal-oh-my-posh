@@ -30,7 +30,7 @@
                     "foreground": "#100e23",
                     "background": "#906cff",
                     "properties": {
-                        "display_mode": "files"
+                        "display_default": "false"
                     }
                 },
                 {
