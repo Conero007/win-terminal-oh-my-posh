@@ -30,7 +30,7 @@
                     "foreground": "#100e23",
                     "background": "#906cff",
                     "properties": {
-                        "home_enabled": false,
+                        "home_enabled": true,
                         "fetch_virtual_env": false,
                         "display_default": false,
                         "fetch_version": false,
