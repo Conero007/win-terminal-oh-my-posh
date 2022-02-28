@@ -11,13 +11,13 @@
             "segments": [
                 {
                     "type": "path",
-                    "style": "powerline",
+                    "style": "diamond",
                     "powerline_symbol": "",
                     "invert_powerline": false,
                     "foreground": "#ffffff",
                     "background": "#ff479c",
-                    "leading_diamond": "",
-                    "trailing_diamond": "",
+                    "leading_diamond": "",
+                    "trailing_diamond": "",
                     "properties": {
                         "prefix": "  ",
                         "style": "folder"
