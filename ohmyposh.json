@@ -41,12 +41,15 @@
                 {
                       "type": "python",
                       "style": "powerline",
-                      "powerline_symbol": "\uE0B0",
+                      "powerline_symbol": "",
+                      "invert_powerline": false,
                       "foreground": "#100e23",
                       "background": "#906cff",
+                      "leading_diamond": "",
+                      "trailing_diamond": "",
                       "properties": {
                         "display_mode": "context",
-                        "template": " \uE235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} "
+                        "template": " \uE235 {{ .Full }} "
                       }
                 },
                 {
