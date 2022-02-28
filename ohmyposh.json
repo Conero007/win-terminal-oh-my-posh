@@ -16,7 +16,7 @@
                     "invert_powerline": false,
                     "foreground": "#ffffff",
                     "background": "#ff479c",
-                    "leading_diamond": "",
+                    "leading_diamond": "",
                     "trailing_diamond": "",
                     "properties": {
                         "prefix": "  ",
