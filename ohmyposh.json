@@ -16,8 +16,8 @@
                     "invert_powerline": false,
                     "foreground": "#ffffff",
                     "background": "#ff479c",
-                    "leading_diamond": "",
-                    "trailing_diamond": "",
+                    "leading_diamond": "",
+                    "trailing_diamond": "",
                     "properties": {
                         "prefix": "  ",
                         "style": "folder"
@@ -37,6 +37,16 @@
                         "display_stash_count": true,
                         "display_upstream_icon": true
                     }
+                },
+                {
+                      "type": "python",
+                      "style": "powerline",
+                      "powerline_symbol": "\uE0B0",
+                      "foreground": "#100e23",
+                      "background": "#906cff",
+                      "properties": {
+                        "template": " \uE235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} "
+                      }
                 },
                 {
                     "type": "dotnet",
@@ -78,20 +88,6 @@
                         "display_exit_code": false,
                         "error_color": "#f1184c",
                         "prefix": " "
-                    }
-                },
-                {
-                    "type": "python",
-                    "style": "powerline",
-                    "powerline_symbol": "",
-                    "invert_powerline": false,
-                    "foreground": "#100e23",
-                    "background": "#906cff",
-                    "leading_diamond": "",
-                    "trailing_diamond": "",
-                    "properties": {
-                        "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
-                        "display_mode": "context"
                     }
                 }
             ]
