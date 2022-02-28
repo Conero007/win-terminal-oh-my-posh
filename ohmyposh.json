@@ -33,7 +33,7 @@
                         "home_enabled": true,
                         "fetch_virtual_env": true,
                         "display_default": true,
-                        "fetch_version": false,
+                        "fetch_version": true,
                         "display_error": false,
                         "display_mode": "context"
                     }
