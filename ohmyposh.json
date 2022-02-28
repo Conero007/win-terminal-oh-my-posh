@@ -17,7 +17,7 @@
                     "foreground": "#ffffff",
                     "background": "#ff479c",
                     "leading_diamond": "",
-                    "trailing_diamond": "",
+                    "trailing_diamond": "",
                     "properties": {
                         "prefix": "  ",
                         "style": "folder"
@@ -33,7 +33,8 @@
                     "leading_diamond": "",
                     "trailing_diamond": "",
                     "properties": {
-                        "template": " {{ if .Venv != 'Base'}}{{ .Venv }} {{ .Full }}{{ end }} "
+                        "display_mode": "context",
+                        "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} "
                     }
                 },
                 {
