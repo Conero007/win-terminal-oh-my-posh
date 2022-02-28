@@ -31,7 +31,7 @@
                     "background": "#906cff",
                     "properties": {
                         "home_enabled": true,
-                        "fetch_virtual_env": false,
+                        "fetch_virtual_env": true,
                         "display_default": false,
                         "fetch_version": false,
                         "display_error": false,
