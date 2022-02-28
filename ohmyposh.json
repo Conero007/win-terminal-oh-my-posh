@@ -11,7 +11,7 @@
             "segments": [
                 {
                     "type": "path",
-                    "style": "diamond",
+                    "style": "powerline",
                     "powerline_symbol": "",
                     "invert_powerline": false,
                     "foreground": "#ffffff",
