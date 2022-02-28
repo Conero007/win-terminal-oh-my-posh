@@ -24,6 +24,20 @@
                     }
                 },
                 {
+                      "type": "python",
+                      "style": "powerline",
+                      "powerline_symbol": "",
+                      "invert_powerline": false,
+                      "foreground": "#100e23",
+                      "background": "#906cff",
+                      "leading_diamond": "",
+                      "trailing_diamond": "",
+                      "properties": {
+                        "display_mode": "context",
+                        "template": " \uE235 {{ .Venv }} {{ .Full }} "
+                      }
+                },
+                {
                     "type": "git",
                     "style": "powerline",
                     "powerline_symbol": "",
@@ -37,20 +51,6 @@
                         "display_stash_count": true,
                         "display_upstream_icon": true
                     }
-                },
-                {
-                      "type": "python",
-                      "style": "powerline",
-                      "powerline_symbol": "",
-                      "invert_powerline": false,
-                      "foreground": "#100e23",
-                      "background": "#906cff",
-                      "leading_diamond": "",
-                      "trailing_diamond": "",
-                      "properties": {
-                        "display_mode": "context",
-                        "template": " \uE235 {{ .Full }} "
-                      }
                 },
                 {
                     "type": "dotnet",
