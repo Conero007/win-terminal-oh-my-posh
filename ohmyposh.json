@@ -17,7 +17,7 @@
                     "foreground": "#ffffff",
                     "background": "#ff479c",
                     "leading_diamond": "",
-                    "trailing_diamond": "",
+                    "trailing_diamond": "",
                     "properties": {
                         "prefix": "  ",
                         "style": "folder"
@@ -30,11 +30,11 @@
                     "invert_powerline": false,
                     "foreground": "#100e23",
                     "background": "#906cff",
-                    "leading_diamond": "",
-                    "trailing_diamond": "",
+                    "leading_diamond": "",
+                    "trailing_diamond": "",
                     "properties": {
-                        "display_mode": "context",
-                        "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} "
+                        "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
+                        "display_mode": "context"
                     }
                 },
                 {
