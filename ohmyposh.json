@@ -34,7 +34,7 @@
                         "fetch_virtual_env": true,
                         "display_default": true,
                         "fetch_version": true,
-                        "display_error": false,
+                        "display_error": true,
                         "display_mode": "context"
                     }
                 },
