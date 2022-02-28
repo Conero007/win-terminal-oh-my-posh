@@ -32,7 +32,7 @@
                     "properties": {
                         "home_enabled": true,
                         "fetch_virtual_env": true,
-                        "display_default": false,
+                        "display_default": true,
                         "fetch_version": false,
                         "display_error": false,
                         "display_mode": "context"
